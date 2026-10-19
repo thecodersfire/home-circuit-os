@@ -24,3 +24,9 @@ The `home-circuit.svg` wallpaper is original. Home Circuit OS is an independent 
 
 See [FEATURES.md](FEATURES.md) for three local tools included for home automation.
 
+
+The installer also includes three purpose-specific applications: **LibreOffice, GNOME Calendar, KeePassXC**. See [FEATURES.md](FEATURES.md).
+
+The installer also includes three purpose-specific applications: **Wireshark, KiCad, Arduino IDE 2**. See [FEATURES.md](FEATURES.md).
+
+The installer also includes three purpose-specific applications: **Wireshark, KiCad, Arduino IDE 2**. See [FEATURES.md](FEATURES.md).
