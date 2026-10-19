@@ -20,3 +20,20 @@ org.gnome.Calculator
 org.gnome.TextEditor
 org.gnome.Logs
 org.gnome.baobab
+
+# Fifteen additional preinstalled purpose-specific applications
+org.qelectrotech.QElectroTech
+org.librecad.librecad
+io.dbeaver.DBeaverCommunity
+org.gnome.gitg
+org.geogebra.GeoGebra
+com.github.xournalpp.xournalpp
+org.jabref.jabref
+org.stellarium.Stellarium
+org.mozilla.Thunderbird
+org.gnome.Evolution
+com.rawtherapee.RawTherapee
+org.kde.digikam
+com.github.tchx84.Flatseal
+org.gnome.Papers
+org.gnome.Calendar
