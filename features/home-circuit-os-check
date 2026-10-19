@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ask(){ local answer; read -r -p "$1 [y/N] " answer; [[ "$answer" =~ ^[Yy]([Ee][Ss])?$ ]]; }
+echo 'home-circuit-os readiness checklist'
+ask 'Is the plan realistic for today?' || true
+ask 'Are personal notes kept somewhere private?' || true
+ask 'Have you left room to pause or adjust?' || true
+echo 'Checklist complete. Answers were not saved or transmitted.'

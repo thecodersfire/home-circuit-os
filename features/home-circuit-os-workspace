@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+base="$HOME/Documents/home-circuit-os-workspace"
+mkdir -p "$base/Plans" "$base/Journal" "$base/Reference"
+printf 'Workspace ready: %s\n' "$base"

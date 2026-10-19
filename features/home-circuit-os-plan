@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mkdir -p "$HOME/Documents/home-circuit-os-session-plans"
+file="$HOME/Documents/home-circuit-os-session-plans/plan-$(date +%Y%m%d-%H%M%S).md"
+{
+ printf '# home-circuit-os session plan\n\n'
+ printf 'Created: %s\n\n' "$(date -Is)"
+ printf 'Purpose: home automation\n\n## Prompts\n'
+ printf '%s\n' '- What routine or activity do you want to focus on?' '- What is a realistic small step?' '- What would make the session comfortable and private?'
+ printf '\n## Notes\n'
+} > "$file"
+nano "$file"
+printf 'Saved locally: %s\n' "$file"
